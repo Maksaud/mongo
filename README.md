@@ -50,7 +50,7 @@ end
 
 ## rspec Tests
 
-```chef
+```ruby
 it 'should install mongodb' do
   expect(chef_run).to install_package 'mongodb'
 end
